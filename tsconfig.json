@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "moduleResolution": "bundler",
+        "strict": true,
+        "types": ["vite/client"],
+        "noUncheckedSideEffectImports": false,
+        "composite": true,
+        "module": "ESNext",
+        "jsx": "react-jsx"
+    },
+    "include": ["src/**/*", "src/**/*.css", "src/**/*.d.ts", "vite.config.*"]
+}
